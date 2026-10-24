@@ -1,0 +1,4 @@
+- insert:
+    - id: whale-bubble
+      name: 'dsh-whale-bubble'
+      config: {}

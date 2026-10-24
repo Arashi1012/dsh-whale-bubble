@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# logs and runtime artefacts
+*.log
+*.old
+dist/
+build/
+*.tgz
+*.zip
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local scratch
+*.tmp
+*.bak
