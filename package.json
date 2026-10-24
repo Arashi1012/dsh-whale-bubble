@@ -1,41 +1,41 @@
 {
-    "name":  "dsh-whale-bubble",
-    "version":  "0.1.0",
-    "private":  true,
-    "type":  "module",
-    "license":  "MIT",
-    "exports":  {
-                    ".":  "./index.js",
-                    "./locale/*.json":  "./locale/*.json",
-                    "./icon":  "./icon.svg"
-                },
-    "files":  [
-                  "index.js",
-                  "whale-bubble.ps1",
-                  "cordis.patch.yml",
-                  "locale/*.json",
-                  "icon.svg",
-                  "README.md",
-                  "whale.svg"
-              ],
-    "dsh":  {
-                "bundle":  {
-                               "patch":  "./cordis.patch.yml"
-                           }
-            },
-    "description":  "DeepSeek Harness desktop bubble: the official whale mark swims on your desktop, hover for progress, chime on completion.",
-    "keywords":  [
-                     "deepseek",
-                     "harness",
-                     "dsh",
-                     "dsh-plugin",
-                     "desktop-widget",
-                     "whale",
-                     "notification"
-                 ],
-    "homepage":  "https://github.com/Arashi1012/dsh-whale-bubble",
-    "repository":  {
-                       "type":  "git",
-                       "url":  "git+https://github.com/Arashi1012/dsh-whale-bubble.git"
-                   }
+  "name": "dsh-whale-bubble",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness desktop bubble: the official whale mark swims on your desktop, hover for progress, chime on completion.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "desktop-widget",
+    "whale",
+    "notification"
+  ],
+  "homepage": "https://github.com/Arashi1012/dsh-whale-bubble",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arashi1012/dsh-whale-bubble.git"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "whale-bubble.ps1",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "whale.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
 }
