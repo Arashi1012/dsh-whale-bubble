@@ -33,9 +33,9 @@
                      "whale",
                      "notification"
                  ],
-    "homepage":  "https://github.com/\u003cowner\u003e/dsh-whale-bubble",
+    "homepage":  "https://github.com/Arashi1012/dsh-whale-bubble",
     "repository":  {
                        "type":  "git",
-                       "url":  "git+https://github.com/\u003cowner\u003e/dsh-whale-bubble.git"
+                       "url":  "git+https://github.com/Arashi1012/dsh-whale-bubble.git"
                    }
 }
